@@ -1,1 +1,8 @@
-module "github.com/cag2050/go_zap_demo"
+module github.com/cag2050/go_zap_demo
+
+go 1.14
+
+require (
+	go.uber.org/multierr v1.6.0 // indirect
+	go.uber.org/zap v1.16.0 // indirect
+)
